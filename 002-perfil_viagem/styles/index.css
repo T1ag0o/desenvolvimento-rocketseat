@@ -1,1 +1,84 @@
 @import url(global.css);
+
+header {
+  background-color: var(--surface-color);
+  padding: 20px 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tiago_logo {
+  width: 35px;
+  border-radius: 50%;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 325px;
+}
+
+.perfil {
+  padding: 32px 32px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--surface-color);
+  align-items: center;
+}
+
+.img-bio {
+  display: flex;
+
+  flex-basis: 592px;
+  justify-content: space-between;
+}
+
+.bio {
+  width: 384px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.bio h1 {
+  font: var(--text-lg);
+}
+
+.bio p {
+  font: var(--text-sm);
+}
+
+.perfil img {
+  width: 158px;
+  border-radius: 50%;
+}
+
+.infos {
+  height: 104px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  font: var(--text-sm);
+}
+
+.info1, .info2, .info3 {
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info1 img, .info2 img, .info3 img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+.galeria-fotos {
+  display: flex;
+  flex-basis: 286px;
+}
