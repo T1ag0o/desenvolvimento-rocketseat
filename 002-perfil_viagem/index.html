@@ -14,51 +14,88 @@
   <title>Travelgram | Perfil Viagens</title>
 </head>
 <body>
-  <header>
+  <div class="bg-surface-color">
+    <header class="container">
 
-    <div class="logo">
-      <img src="assets/Logo.svg" alt="">
-    </div>
-    <nav>
-      <img src="assets/MagnifyingGlass.svg" alt="">
-      <a href="#">Explorar</a>
-      <a href="#">Minhas viagens</a>
-      <img id="tiago_logo" src="assets/tiago_rosto.png" alt="">
-    </nav>
-    
-  </header>
+      <div class="logo">
+        <a href="#" id="logomarca">
+          <img src="assets/Logo.svg" alt="">
+        </a>
+      </div>
+      <nav>
+        <ul id="primary-menu">
+          <li>
+            <a href="#">
+              <img src="assets/MagnifyingGlass.svg" alt="">
+            </a>
+          </li>
 
-  <div class="perfil">
-    <div class="img-bio">
-      <img src="assets/tiago_rosto.png" alt="">
-      <div class="bio">
-        <h1>Tiago Arnhold</h1>
-        <div class="desc">
-          <p>Amante de viagens, cultura, gastronomia e tecnologia. 🌍✈️</p>
-          <p>Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da pacata cidade de Nova Mutum. 🏙️📸</p>
-        </div>   
-      </div>
-    </div>
+          <li>
+            <a href="#">Explorar</a>
+          </li>
 
-    <div class="infos">
-      <div class="info1">        
-        <img src="assets/MapPin.svg" alt="">
-        <p>Nova Mutum, Brasil</p>
+          <li>
+            <a href="#">Minhas viagens</a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img id="tiago_logo" src="assets/tiago_rosto.png" alt="">
+            </a>
+          </li>
+        </ul>      
+      </nav>
+    
+    </header>
+
+    <div class="container perfil">
+      <div class="img-bio">
+        <img src="assets/tiago_rosto.png" alt="">
+        <div class="bio">
+          <h1>Tiago Arnhold</h1>
+          <div class="desc">
+            <p>Amante de viagens, cultura, gastronomia e tecnologia. 🌍✈️</p>
+            <p>Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da pacata cidade de Nova Mutum. 🏙️📸</p>
+          </div>   
+        </div>
       </div>
-      <div class="info2">        
-        <img src="assets/AirplaneTilt.svg" alt="">
-        <p>1 país</p>
-      </div>
-      <div class="info3">        
-        <img src="assets/Image.svg" alt="">
-        <p>12 fotos</p>
-      </div>      
+
+      <ul class="infos-ul">
+        <li>
+          <img src="assets/MapPin.svg" alt="">
+          <span>Nova Mutum, Brasil</span>
+        </li>
+        <li>
+          <img src="assets/AirplaneTilt.svg" alt="">
+          <span>1 país</span>
+        </li>
+        <li>
+          <img src="assets/Image.svg" alt="">
+          <span>12 fotos</span>
+        </li>
+      </ul>
+
+      <!-- <div class="infos">
+        <div class="info1">        
+          <img src="assets/MapPin.svg" alt="">
+          <p>Nova Mutum, Brasil</p>
+        </div>
+        <div class="info2">        
+          <img src="assets/AirplaneTilt.svg" alt="">
+          <p>1 país</p>
+        </div>
+        <div class="info3">        
+          <img src="assets/Image.svg" alt="">
+          <p>12 fotos</p>
+        </div>      
+      </div> -->
+      
+      
     </div>
-    
-    
+  
   </div>
 
-  <div class="galeria-fotos">
+  <main class="container galeria-fotos">
 
     <div class="foto">
       <img src="assets/Image 01.png" alt="">
@@ -97,11 +134,11 @@
       <img src="assets/Image 12.png" alt="">
     </div>
 
-  </div>
+  </main>
 
-  <footer>
+  <footer class="container">
 
-    <p>Travelgram 2026</p>
+    <p>Travelgram &copy 2026</p>
 
     <div class="footer-links">
       <a href="#">Termos de uso</a>

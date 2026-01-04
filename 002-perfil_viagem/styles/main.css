@@ -1,0 +1,15 @@
+.galeria-fotos {
+  padding-block: 20px;
+  background-color: var(--background-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.galeria-fotos img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 11px 7px rgb(222, 222, 222);
+}
