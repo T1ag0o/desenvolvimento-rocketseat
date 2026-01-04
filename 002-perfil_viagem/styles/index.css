@@ -8,7 +8,7 @@ header {
 }
 
 #tiago_logo {
-  width: 35px;
+  width: 40px;
   border-radius: 50%;
 }
 
@@ -79,6 +79,36 @@ nav {
 }
 
 .galeria-fotos {
+  padding: 24px 32px;
+  background-color: var(--background-color);
   display: flex;
-  flex-basis: 286px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.foto img {
+  width: 350px;
+  margin-bottom: 24px;
+  
+}
+
+.foto {
+}
+
+footer {
+  font: var(--text-sm);
+
+  padding: 24px 32px;
+
+  display: flex;
+
+  justify-content: space-between;
+}
+
+footer a {
+  font: var(--text-sm);
+}
+
+footer a:nth-of-type(1) {
+  margin-right: 16px;
 }
