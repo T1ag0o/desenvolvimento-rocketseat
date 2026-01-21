@@ -104,10 +104,6 @@ section header {
 
 aside {
   grid-area: aside;
-
-  img {
-
-  }
 }
 
 #more {

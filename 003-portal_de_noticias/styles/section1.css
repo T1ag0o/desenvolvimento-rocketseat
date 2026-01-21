@@ -1,0 +1,81 @@
+.section1 {
+  padding-block: 0 80px;
+}
+
+.mais-vistos {
+  border-top: 1px solid var(--stroke-color);
+  padding-top: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font: var(--span-font);
+  color: var(--text-color-primary);
+}
+.mais-vistos > div > a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mais-vistos > div > a svg {
+  fill: var(--text-color-primary);
+  width: 16px;
+  height: 16px;
+}
+
+.mais-vistos > div > a:hover svg {
+  fill: var(--brand-color-light);
+}
+
+.card-mais-vistos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 16px;
+}
+
+.card-mais-vistos > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  padding-block: 24px;
+}
+
+.card-mais-vistos > div > div {
+  border-radius: 4px;
+  background-size: cover;
+  height: 160px;
+
+  position: relative;
+}
+
+.card-mais-vistos > div > div > span {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.card-mais-vistos > div > p {
+  font: var(--h2-font);
+  color: var(--text-color-primary);
+}
+
+.card-mais-vistos > .mais-visto1 > div {
+  background-image: url(../assets/imgs/Image\ 06.png);
+}
+
+.card-mais-vistos > .mais-visto2 > div {
+  background-image: url(../assets/imgs/Image\ 07.png);
+}
+
+.card-mais-vistos > .mais-visto3 > div {
+  background-image: url(../assets/imgs/Image\ 08.png);
+}
+
+.card-mais-vistos > .mais-visto4 > div {
+  background-image: url(../assets/imgs/Image\ 09.png);
+}
+

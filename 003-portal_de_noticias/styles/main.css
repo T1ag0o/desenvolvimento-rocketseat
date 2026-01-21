@@ -1,0 +1,113 @@
+.block-main {
+  padding-block: 40px 80px;
+
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 208px);
+  gap: 16px;
+}
+
+.card-main {
+  background-image: url(../assets/imgs/Image\ 01.png);
+  background-size: cover;
+  border-radius: 4px;
+
+  grid-column: 1/3;
+  grid-row: 1/3;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-main > div {
+  background: linear-gradient(to bottom, #02061700, #020617);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-block: 24px;
+  padding-inline: 24px;
+  gap: 8px;
+}
+
+.flex-card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.card-main > div > div > p {
+  font: var(--h1-font);
+  color: var(--text-color-primary);
+}
+
+.card-main > div > div > span {
+  align-self: flex-start;
+}
+
+.card {
+  background-size: cover;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+  background: linear-gradient(to bottom, #02061700, #020617);
+}
+
+.card > div > div {
+  padding-block: 12px;
+  padding-inline: 12px;
+  gap: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card > div > div > span {
+  align-self: flex-start;
+}
+
+.card > div > div > p {
+  font: var(--h3-font);
+  color: var(--text-color-primary);
+}
+
+.card1 {
+  background-image: url(../assets/imgs/Image\ 02.png);
+
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.card2 {
+  background-image: url(../assets/imgs/Image\ 03.png);
+
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.card3 {
+  background-image: url(../assets/imgs/Image\ 04.png);
+
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.card4 {
+  background-image: url(../assets/imgs/Image\ 05.png);
+
+  grid-column: 4/5;
+  grid-row: 2/3;
+}

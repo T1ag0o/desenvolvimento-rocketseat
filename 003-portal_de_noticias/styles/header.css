@@ -1,0 +1,46 @@
+.header-menu {
+  padding-block: 20px;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Menu e busca */
+h1 {
+  font: var(--h1-font);
+  color: var(--brand-color-light);
+}
+
+.menu-list, .buscar {
+  font: var(--h2-font);
+  color: var(--text-color-primary);
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.menu-list:hover, .buscar:hover {
+  color: var(--brand-color-light);
+}
+
+.menu-list {
+  align-items: flex-start;
+}
+
+/* menu principal */
+.menu > ul {
+  font: var(--span-font);
+  color: var(--text-color-secondary);
+
+  border-top: 1px solid var(--stroke-color);
+  border-bottom: 1px solid var(--stroke-color);
+
+  padding-block: 14px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
